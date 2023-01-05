@@ -48,32 +48,15 @@ for(let i in menuLinks){
   
   
   
- // a.classList.add('active');
+ 
   topMenuEl.appendChild(a);
-  // if(menuLinks[i].text =='about'){
-  //   topMenuEl.addEventListener('click',function(e){
-  //     mainEl.text = '<h1>about</h1>'
-  //   })
-  // }
+  
   
 
   
 
 }
 
-// let topm = [];
-// for(let i in menuLinks){
-//   topm.push(menuLinks[i].text);
-  
-//   console.log(topm[0]);
-
-  
-// }
-
-// topm[0].addEventListener('click',function(e){
-//   e.preventDefault();
-//   mainEl.innerHTML = `<h1>${e.target.text}</h1>`
-// })
 
 
 let subMenuEl = document.getElementById('sub-menu');
@@ -203,13 +186,6 @@ topMenuEl.addEventListener('click',function(e){
   
 
 })
-
-// if(menuLinks.text =='about'){
-//   topMenuEl.addEventListener('click',function(e){
-//     mainEl.innerHTML = `<h1>${e.target.text}</h1>`
-//   })
-// }
-
 
 
 
